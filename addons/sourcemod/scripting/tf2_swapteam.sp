@@ -1,13 +1,35 @@
 /************************************************************************
-Plugin: Swap My Team
-Description: Main functionality is to simply allow donators to swap teams.
+*************************************************************************
+TF2 Swap My Team
+
+Description: A very simple swapteam script for TF2.
+    Main functionality is to simply allow donators to swap teams.
 	Also gives a bit more flexibility/control over how the plugin works.
-	Users of this plugin can set a cool down time on how often
-	the functionality is used (to prevent swap abuse).
-Original Author: Afronanny
-Current Author: Mr.Silence
+	Server admins can set a cool down time on how often the functionality 
+    is used (to prevent swap abuse).
+    
+Original Author: 
+    Afronanny
+    
+Current Author: 
+    Mr.Silence
+
+*************************************************************************
+*************************************************************************
+This plugin is free software: you can redistribute 
+it and/or modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation, either version 3 of the License, or
+later version. 
+
+This plugin is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this plugin.  If not, see <http://www.gnu.org/licenses/>.
+*************************************************************************
 *************************************************************************/
-// Make sure it reads semicolons as endlines.
 #pragma semicolon 1
 
 // Includes
@@ -15,8 +37,7 @@ Current Author: Mr.Silence
 #include <tf2>
 #include <tf2_stocks>
 
-// Get some defines up in this piece!
-// But seriously, define some common, easier to deal with stuff.
+// Defines
 #define VERSION "1.3"
 #define TEAM_RED 2
 #define TEAM_BLUE 3
