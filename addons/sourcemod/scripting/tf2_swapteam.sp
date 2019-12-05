@@ -47,10 +47,10 @@ along with this plugin.  If not, see <http://www.gnu.org/licenses/>.
 #define SMTP_PREFIX "\x01\x04[SM]\x01"
 
 // Create our new cvar handles for use later.
-ConVar cvar_SwapMyTeamDFlag;        // Donator flag that allows people to use the command
-ConVar cvar_SwapMyTeamCMD;          // Command used to swap teams
-ConVar cvar_SwapMyTeamCoolDown;     // Cool Down cvar
-ConVar cvar_SMTVersion;             // Version display cvar
+ConVar cvar_SwapMyTeamDFlag = null;        // Donator flag that allows people to use the command
+ConVar cvar_SwapMyTeamCMD = null;          // Command used to swap teams
+ConVar cvar_SwapMyTeamCoolDown = null;     // Cool Down cvar
+ConVar cvar_SMTVersion = null;             // Version display cvar
 
 // Create our timer handel for each player.
 Handle g_SMTTimerHandle[MAXPLAYERS+1];
